@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grupo</title>
-
+    <title>Proyect Certus</title>
+    <!-- for font icons -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -17,7 +17,8 @@
     sizes="192x192"
   />
 
-  <body style="margin: 0">
+  <body style="margin: 0" >
+    <!-- Start Header -->
     <header>
       <table
         border="0"
@@ -30,21 +31,22 @@
           <td>
             <table
               border="0"
-              width="100%"
+              width="80%"
               cellpadding="11"
               cellspacing="0"
               align="center"
+              
             >
-              <tr>
+              <tr >
                 <td>
                   <font face="arial" color="white" size="5">
-                    <a href="./index.html" ><strong>🚨ALERTA MAMERTO🚨</strong></a>
+                    <strong>🚨ALERTA MAMERTO🚨</strong>
                   </font>
                 </td>
                 <td width="25%">&nbsp;</td>
 
                 <td>
-                  <a href="./index.html#noticias">
+                  <a href="./index.html">
                     <font face="arial" color="#ffffff" size="5">
                       Últimas Noticias
                     </font></a
@@ -58,7 +60,7 @@
                     </font></a
                   >
                 </td>
-               
+                
                 <td>
                   <a href="grupo.html">
                     <font face="arial" color="#ffffff" size="5">
@@ -79,35 +81,36 @@
         </tr>
       </table>
     </header>
-
-    <!-- Start Grupo -->
+    <!-- End Header -->
     <table
       border="0"
-      id="grupo"
+      id="noticias"
       width="100%"
       cellpadding="0"
       cellspacing="0"
-      bgcolor="black"
-      align="center"
+      bgcolor="white"
     >
       <tr>
         <td>
           <table
             border="0"
-            width="35%"
-            cellpadding="5"
+            width="85%"
+            cellpadding="15"
             cellspacing="0"
             align="center"
           >
-            <!-- Heading Start-->
             <tr>
               <td height="160" align="center" valign="middle" colspan="3">
-                <font face="arial" size="6" color="white"> Grupo </font>
-                <hr width="70" color="white" />
+                <font face="arial" size="6" color="#2B2B2B">
+                  Contacto
+                </font>
+                <hr width="20%" color="#2B2B2B" />
               </td>
             </tr>
-            <!-- Heading  End-->
+
             <tr>
+              
+
               <td width="33%" valign="top">
                 <table
                   border="0"
@@ -115,16 +118,81 @@
                   cellpadding="15"
                   cellspacing="0"
                   align="center"
-                  bgcolor="white"
+                  bgcolor="#cccccc"
                 >
                   <tr>
                     <td>
-                      <img src="./images/tyron.webp" width="100%" alt="team" />
-                      <br /><br />
-                      <font face="arial" size="5" color="black">
-                        Jean Pierre Vivanco Tarrillo
-                      </font>
-                      <br /><br />
+                      <form action="#" method="POST">
+                        <h1>🚨ALERTA MAMERTO🚨</h1>
+                        <h2>Escríbenos</h2>
+                        <h3>En Alerta Mamerto nos importa tu punto de vista.</h3>
+                        <p >Tus opiniones, comentarios y sugerencias son bienvenidos.
+
+                          A partir de ellos, podremos ofrecerte un mejor servicio.
+                          
+                          Por favor, utiliza el formulario para enviarnos un mensaje. Procuraremos responder a la mayor brevedad.</p>
+                        <hr size="4" color="black">
+                          <h2>Envíanos tus comentarios</h2>
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input
+                          type="text"
+                          name="nombre"
+                          id="nombre"
+                          placeholder="Ingrese su nombre"
+                          required
+                        />
+                        <br>
+                        <br>
+                        <label for="email">Dirección de email (Obligatorio):</label>
+                        <br>
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                        placeholder="Ingrese su email" required/>
+                        <br>
+                        <br>
+                        <label for="ciudad">Ciudad y país(opcional)</label>
+                        <br>
+                        <input
+                          type="text"
+                          name="ciudad"
+                          id="ciudad"
+                          placeholder="Ingrese su ciudad" />
+                        <br>
+                        <br>
+                        <label for="phoone">Número de Telefono(opcional)</label>
+                        <br>
+                        <input
+                          type="phone"
+                          name="phone"
+                          id="phone"
+                          placeholder="Ingrese su telefono" />
+                        <br>
+                        <br>
+                        <label for="comentario">Comentario(Obligatorio)</label>
+                        <br>
+                        <textarea
+                          name="comentario"
+                          id="comentario"
+                          cols="30"
+                          rows="10"
+                          placeholder="Ingrese su comentario" required></textarea>
+                          <!-- checkbox -->
+                          <br>
+                          <br>
+                          <input type="checkbox" name="terminos" id="terminos" required>
+                          <label for="terminos">Acepto los términos y condiciones</label>
+                          <br>
+                          <br>
+                          <p>Si bien leemos lo mensajes que recibimos, no podemos garantizar que responderemos a todos.
+                            
+                            Los datos personales que proporcione serán procesados por <strong>ALERTA MAMERTO</strong> y cualquier proveedor de servicios relevante del que dependamos para respaldar nuestros sistemas de quejas y de participación de la audiencia con el fin manejar sus comentarios.                            
+                            <strong>ALERTA MAMERTO</strong> procesa sus datos sobre la base de sus intereses legítimos como organización de medios para responder a los comentarios y preocupaciones de la audiencia. </p>
+                            <input type="submit" value="Enviar">
+                      </form>
+                     
                     </td>
                   </tr>
                 </table>
@@ -137,19 +205,25 @@
                   cellpadding="15"
                   cellspacing="0"
                   align="center"
-                  bgcolor="white"
+                  bgcolor="#cccccc"
                 >
-                  <tr>
-                    <td>
-                      <img src="./images/pablo.webp" width="100%" alt="team" />
+                  <tr align="center" >
+                    <td align="center" >
+                      <h1>🚨ALERTA MAMERTO🚨</h1>
+                      <iframe width="894" height="503" src="https://www.youtube.com/embed/7OAYLDYFBrw" title="🔴🤣 El tío Lisuratás es el nuevo &#39;men&#39; en la lucha contra el contrabando en el aeropuerto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <br />
+                      <br />
+                      
                       <br /><br />
-                      <font face="arial" size="5" color="black">
-                        Arturo Vincenzo Meza Angeles
-                      </font>
-                      <br /><br /><br />
+                      
                     </td>
                   </tr>
                 </table>
+              </td>
+            </tr>
+            <tr>
+              <td width="43%" valign="top">
+               
               </td>
             </tr>
             <!-- section padding bottom -->
@@ -161,7 +235,12 @@
         </td>
       </tr>
     </table>
-    <!-- End Team -->
+
+    <!-- section padding bottom -->
+    <tr>
+      <td height="60" colspan="3"></td>
+    </tr>
+    <!-- section padding bottom End--> 
 
     <!-- Start Footer -->
     <table
@@ -198,11 +277,11 @@
                     <td width="25%" align="center">
                       <table
                         border="0"
-                        width="50%"
+                        width="50"
                         cellpadding="0"
                         cellspacing="0"
                         align="center"
-                        height="50%"
+                        height="50"
                         bgcolor="black"
                       >
                         <tr>
@@ -219,7 +298,7 @@
                     <td width="25%" align="center">
                       <table
                         border="0"
-                        width="50%"
+                        width="50"
                         cellpadding="0"
                         cellspacing="0"
                         align="center"
@@ -243,7 +322,7 @@
                     <td width="25%" align="center">
                       <table
                         border="0"
-                        width="50%"
+                        width="50"
                         cellpadding="0"
                         cellspacing="0"
                         align="center"
@@ -264,11 +343,11 @@
                     <td width="25%" align="center">
                       <table
                         border="0"
-                        width="50%"
+                        width="50"
                         cellpadding="0"
                         cellspacing="0"
                         align="center"
-                        height="50%"
+                        height="50"
                         bgcolor="black"
                       >
                         <tr>
